@@ -1,0 +1,253 @@
+/*////Headings, Call-to-actions, Header Navigation
+font: Raleway
+Weights: 400 & 700*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* ///Body
+font: Open Sans
+Weights: 400 & 700*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Primary */
+    --sign-up-bg : hsl(217, 28%, 15%);
+    --main-bg : hsl(218, 28%, 13%);
+    --footer-bg : hsl(216, 53%, 9%);
+    --testimonials-bg : hsl(219, 30%, 18%);
+    /* Accent */
+    --Cyan : hsl(176, 68%, 64%);
+    --Blue : hsl(198, 60%, 50%);
+    --red-error : hsl(0, 100%, 63%);
+    /* Neutral */
+    --White : hsl(0, 0%, 100%);
+}
+
+/*///////////////////// HEADER /////////////////////*/
+
+header {
+    background-color: var(--sign-up-bg);
+    height: 10vh;
+}
+
+header, ul {
+    outline: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: auto 0 auto 40px;
+    width: 7rem;
+    outline: 2px solid red;
+}
+
+header li {
+    outline: 2px solid red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    list-style: none;
+    padding: 0 40px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+
+/*///////////////////// MAIN SECTON /////////////////////*/
+
+main {
+    outline: 2px solid red;
+    background-color: var(--sign-up-bg);
+    color: var(--White);
+    height: 90vh;
+}
+
+.main-section {
+    outline: 2px solid red;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+}
+
+.main-section img {
+    outline: 2px solid red;
+    width: 60%;
+}
+
+.main-section h1 {
+    outline: 2px solid red;
+    text-align: center;
+    width: 90%;
+}
+
+.main-section p {
+    outline: 2px solid red;
+    text-align: center;
+    width: 70%;
+
+}
+
+.main-section button {
+    outline: 2px solid red;
+    color: var(--White);
+    width: 30%;
+    padding: .7rem;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(0.25turn, hsl(176, 68%, 64%) , hsl(198, 60%, 50%));
+    font-weight: 700;
+}
+
+/*///////////////////// SERVICES SECTON /////////////////////*/
+
+.services-section {
+    outline: 2px solid red;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--White);
+    background-color: var(--main-bg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    outline: 2px solid red;
+    width: 60%;
+    height: 80%;
+}
+
+.services-divs {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    outline: 2px solid red;
+}
+
+.services-divs h3 {
+    outline: 2px solid red;
+    padding: 1rem;
+}
+
+.services-divs p {
+    padding: 0 2rem;
+}
+
+.services-divs img {
+    padding: 1rem 0;
+    height: 40%;
+
+}
+
+/*///////////////////// SERVICES SECTON /////////////////////*/
+
+.productive-section {
+    background-color: var(--main-bg);
+    color: var(--White);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.productive-image {
+    outline: 2px solid red;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.productive-image img {
+    height: 100%;
+    padding: 4rem;
+
+}
+
+.right-section {
+    outline: 2px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.right-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    outline: 2px solid red;
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
+
+
+
+.productive-section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    outline: 2px solid red;
+
+}
+
+.productive-section p {
+    outline: 2px solid red;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.productive-section a {
+    font-family: 'Open Sans', sans-serif;
+    outline: 2px solid red;
+    color: var(--Cyan);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--Cyan);
+    display: inline-block;
+}
+
+.right-section img {
+    height: fit-content;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
